@@ -259,7 +259,7 @@ p{
 .nouveaux{
     position: absolute;
     z-index: 16;
-    top: 978px;
+    top: 61%;
     color: #008766;
     background-color: #99e2d0;
     width: 79px;
@@ -273,7 +273,7 @@ p{
 .nouveau{
     position: absolute;
     z-index: 16;
-    top: 1238px;
+    top: 76%;
     color: #008766;
     background-color: #99e2d0;
     width: 79px;
