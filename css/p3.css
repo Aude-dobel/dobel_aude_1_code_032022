@@ -9,6 +9,7 @@ body{
 .conteneur_spinner{
     display: flex;
     justify-content: center;
+    display: block;
 }
 .loading_spinner{
     border: 10px solid #99e2d0;
@@ -737,7 +738,7 @@ header{
     height: 583px;
 }
 .conteneur-pied{
-    margin-top: -576px;
+    margin-top: -224px;
 }
 .nom-cartes{
     font-size: 16px;
