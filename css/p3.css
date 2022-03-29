@@ -3,7 +3,7 @@
 
 body{
     margin: 0px;
-    width: 1900px;
+    width: auto;
 }
 /* spinner*/
 .conteneur_spinner{
@@ -251,7 +251,7 @@ p{
 .conteneur{
     background-color: #f6f6f6;
     padding-left: 20px;
-    height: 776px;
+    height: 1220px;
 }
 .restaurant{
     padding-top: 58px;
@@ -345,7 +345,6 @@ a{
     background-color:#353535 ;
     height: 197px;
     padding: 27px 0px 0px 20px;
-    margin-top: 58px;
     display: flex;
     flex-direction: column;
 }
