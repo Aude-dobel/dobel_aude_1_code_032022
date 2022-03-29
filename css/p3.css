@@ -3,23 +3,39 @@
 
 body{
     margin: 0px;
-    
+    width: 1900px;
 }
 /* spinner*/
 .conteneur_spinner{
     display: flex;
     justify-content: center;
-    display: block;
-}
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    animation: spiner 4s ;
+}    
+    @keyframes spiner{
+
+        0%{
+            opacity: 0.30;
+            background-color: white;
+        }
+
+        100%{
+            opacity: 0;
+        }
+    }
+
 .loading_spinner{
     border: 10px solid #99e2d0;
     border-top: 10px solid #9356dc;
     border-bottom: 10px solid #ff79da;
     background-color: white;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    animation: loader 3000ms ;
+    width: 300px;
+    height: 300px;
+    animation: loader 4s ;
     opacity: 0;
   }
 @keyframes loader{
@@ -27,6 +43,8 @@ body{
     0%{
         opacity: 1;
         rotate: 360deg;
+       background-color: white;
+        
     }    
     100%{
         opacity: 0;
