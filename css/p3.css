@@ -510,17 +510,9 @@ header{
     overflow: hidden;
     white-space: nowrap;
   }
-
-
-.texte{
-    display: flex;
-    margin-left: 11px;
-}
-
 .check1{
     display: flex;
 }    
-
 .valide{
     border-radius: 0px 20px 20px 0px;
     color: white;
