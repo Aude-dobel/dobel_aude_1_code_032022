@@ -495,7 +495,6 @@ header{
     }
 /*entree*/
 .ligne2{
-    
     display: flex;
     justify-content: space-between;
     height: 65px;
@@ -509,9 +508,7 @@ header{
 }
 .carte{
     overflow: hidden;
-    text-overflow: ellipsis;
     white-space: nowrap;
-    display: block;
   }
 
 
