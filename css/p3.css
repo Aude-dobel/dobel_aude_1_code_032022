@@ -516,9 +516,10 @@ header{
 }
   .nom-cartes{
     font-family: 'Roboto';
-    font-size: 13px;
-    padding-left: 12px;
-    margin-bottom: 0;
+    font-size: 16px;
+    margin: 12px 0px 2px 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .text-cartes{
     font-family: 'Roboto';
