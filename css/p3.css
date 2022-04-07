@@ -531,28 +531,29 @@ header{
 }
   .check1{
     display: flex;
-}    
-.valide{
-    border-radius: 0px 20px 20px 0px;
-    color: white;
-}
-.valide:hover{
-    width: 59px;
-    height: 68px;
-    background-color: #99E2D0;
-    color: white;
-    margin-top: 0px;
+}  
+.prix{
     display: flex;
-    justify-content: center;
+    align-items: flex-end;
+    margin-right: 20px;
+}  
+.valide{
+    display: block;
     align-items: center;
-    transition: 800ms;
-    margin-left: 23px;
-    transform: translateX(0%);
+    margin-right: -59px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #99e2d0;
+    transition: all 500ms;
 }
-.icone{
-    padding-top: 10px;
 
+.icone{
+    margin-top: 10px;
+    font-size: 23px;
+    color: white;
 }
+
 .icone:hover{
     rotate: 1turn;
     transition: 1000ms;
@@ -561,17 +562,12 @@ header{
 
 }
 
+.check1:hover{
+    transform: translateX(-58px);
+    transition: all 500ms;
+}
 
-.prix{
-    display: flex;
-    align-items: flex-end;
-}
-.prix12{
-   margin-bottom: 9px;
-   font-size: 11px;
-   font-family: 'Roboto';
-   display: flex;
-}
+
 /*plats*/
 .plats{
     margin-top: 36px;
