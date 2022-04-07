@@ -14,19 +14,24 @@ body{
     width: 100%;
     align-items: center;
     animation: spiner 4s ;
+    opacity: 0;
+    z-index: -5;
 }    
     @keyframes spiner{
 
         0%{
-            opacity: 0.30;
+            opacity: 1;
             background-color: white;
+            z-index: 10;
         }
-
-        100%{
+        98%{
             opacity: 0;
+            z-index: 10;    
+        }
+        100%{
+            z-index: -5;
         }
     }
-
 .loading_spinner{
     border: 10px solid #99e2d0;
     border-top: 10px solid #9356dc;
@@ -36,7 +41,7 @@ body{
     width: 300px;
     height: 300px;
     animation: loader 4s ;
-    opacity: 0;
+    
   }
 @keyframes loader{
 
@@ -46,6 +51,9 @@ body{
        background-color: white;
         
     }    
+    80%{
+        opacity: 1;
+    }
     100%{
         opacity: 0;
         
@@ -489,18 +497,23 @@ header{
 .ligne2{
     
     display: flex;
-    flex-wrap :wrap ;
-    cursor: pointer;
-    box-shadow: 0 1px 5px grey;
-     width: 349px;
-    height: 68px;
-    background-color: #ffffff;
-    border-radius: 20px 20px 20px 20px;
-    margin-left: 14px;
-    margin-top: 13px;
-    flex-direction: row;
     justify-content: space-between;
+    height: 65px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 17px;
+    box-shadow: 0 1px 5px grey;
+    white-space: nowrap;
+    width: 335px;
 }
+.carte{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+  }
+
 
 .texte{
     display: flex;
@@ -618,7 +631,7 @@ header{
 
 @media all and (min-width:376px){
 body{
-    width: 1920px;
+    width: 1900px;
 }
 header{
     width:100%;
@@ -751,11 +764,14 @@ header{
     justify-content: center;
     align-items: center;
 }
+.conteneur{
+    height: auto;
+}
 .conteneur-plat{
     height: 583px;
 }
 .conteneur-pied{
-    margin-top: -224px;
+    margin-top: 2px;
 }
 .nom-cartes{
     font-size: 16px;
