@@ -64,28 +64,28 @@ body{
 /*header*/
 .image_fond{
     object-fit: cover;
-    width: 376px;
+    width: 372px;
     height: 257px;
     position: absolute;
     z-index: -1;
 }
 .image_francaise{
     object-fit: cover;
-    width: 376px;
+    width: 372px;
     height: 257px;
     position: absolute;
     z-index: -1;
 }
 .image_note{
     object-fit: cover;
-    width: 376px;
+    width: 372px;
     height: 257px;
     position: absolute;
     z-index: -1;
 }
 .image_palette{
     object-fit: cover;
-    width: 376px;
+    width: 372px;
     height: 257px;
     position: absolute;
     z-index: -1;
@@ -355,6 +355,7 @@ a{
     padding: 27px 0px 0px 20px;
     display: flex;
     flex-direction: column;
+    margin-top: 66px;
 }
 .conteneur-pieds{
     background-color:#353535 ;
@@ -416,7 +417,7 @@ header{
 }
 .conteneur-plat{
     background-color: #f6f6f6;
-    height: 1219px;
+    height: 1227px;
     border-radius: 30px 30px 0px 0px;
     margin-top: 221px;
 }
@@ -505,14 +506,12 @@ header{
     box-shadow: 0 1px 5px grey;
     white-space: nowrap;
     width: 335px;
-}
-.carte{
-    overflow: hidden;
-    white-space: nowrap;
+    margin-left: 20px;
 }
 .text{
     white-space: nowrap;
     overflow: hidden;
+    width: 315px;
 }
   .nom-cartes{
     font-family: 'Roboto';
@@ -523,24 +522,27 @@ header{
 }
 .text-cartes{
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     text-overflow: ellipsis;
     overflow: hidden;
     margin: 12px 0px 2px 12px;
+    transition: all 500ms;
+    width: 80%;
 }
   .check1{
     display: flex;
+    width: 7%;
 }  
 .prix{
     display: flex;
     align-items: flex-end;
-    margin-right: 20px;
+    padding-top: 74px;
 }  
 .valide{
-    display: block;
+    display: flex;
     align-items: center;
-    margin-right: -59px;
+    margin-right: -78px;
     padding-right: 18px;
     padding-left: 18px;
     border-radius: 0px 20px 20px 0px;
@@ -552,19 +554,17 @@ header{
     margin-top: 10px;
     font-size: 23px;
     color: white;
-}
-
-.icone:hover{
-    rotate: 1turn;
-    transition: 1000ms;
-    transform-origin: center;
+     transform: rotate(1turn);
+    transition: 500ms;
     padding-right: 0px;
-
 }
+
 
 .check1:hover{
-    transform: translateX(-58px);
+    transform: translateX(-4px);
     transition: all 500ms;
+    width: 94px;
+
 }
 
 
