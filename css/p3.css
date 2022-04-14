@@ -301,10 +301,8 @@ p{
     position: absolute;
     z-index: 16;
     top: 72%;
-    color: #008766;
-    background-color: #99e2d0;
     width: 79px;
-    height: 29px;
+    height: 0px;
     left: 260px;
 }
 .texte{
@@ -675,9 +673,9 @@ header{
     left: 71%;
 }
 .nouveau{
-    position: absolute;
-    left: 42%;
-    top:155%;
+    position: relative;
+    left: 72%;
+    top: -66%;
 }
 .texte{
   
