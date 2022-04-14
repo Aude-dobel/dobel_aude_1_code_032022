@@ -163,6 +163,7 @@ header{
     border: none;
     background: linear-gradient(#FF75DA ,#9349DC);
     cursor: pointer;
+    box-shadow: 0 3px 6px gray;
 }
 .text-bouton{
     font-family: 'Roboto';
@@ -171,7 +172,8 @@ header{
     color: #ffffff;
 }
 .bouton:hover, .boutons:hover{
-    background: linear-gradient(#ff80DA, #9370DC)
+    background: linear-gradient(#ff80DA, #9370DC);
+    box-shadow: 0 3px 6px black
 }
 /*fonctionnement*/
 
@@ -179,7 +181,7 @@ header{
     margin: 0px;
     padding-top: 52px;
     padding-left: 22px;
-    padding-bottom: 33px
+    padding-bottom: 33px;
 }
 #filtre{
     display: flex;
