@@ -355,7 +355,6 @@ a{
     padding: 27px 0px 0px 20px;
     display: flex;
     flex-direction: column;
-    margin-top: 66px;
 }
 .conteneur-pieds{
     background-color:#353535 ;
@@ -686,13 +685,11 @@ header{
     margin-top:-35px;
     padding-top: 5px;
 }
-.conteneur-pied{
-    margin-top: -36%;
-}
+
 .titre-pied{
     display: flex;
     justify-content:center ;
-    font-size:31px ;
+    font-size:40px ;
 }
 .mentions{
     justify-content: center;
@@ -700,10 +697,13 @@ header{
 }
 .proposer, .partenaire, .mention{
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 28px;
+}
+.contacter{
+    font-size: 28px;
 }
 .image_palette, .image_francaise, .image_note, .image_fond{
-    width:1920px;
+    width:1900px;
 }
 .coeur{
     padding-left: 74%;
@@ -714,23 +714,26 @@ header{
 }
 .titre-menu{
     font-size: 30px;
+    margin-bottom: 60px;
 }
 .entree{
     display: flex;
-    flex-wrap: wrap;
 }
 .entrer{
     margin-right: 93px;
 }
 .ligne2{
-    margin-right: 50px;
+    margin-right: 4px;
     width: 490px;
 }
 .text{
     width: 71%;
 }
-.check2{
-    width: 142px;
+.check1{
+    width: 5%;
+}
+.check1:hover{
+    width: 76px;
 }
 .plat{
     display: flex;
@@ -752,30 +755,32 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 91px;
 }
 .conteneur{
     height: auto;
 }
 .conteneur-plat{
-    height: 583px;
-}
-.conteneur-pied{
-    margin-top: 2px;
+    height: 800px;
 }
 .nom-cartes{
     font-size: 16px;
     margin-bottom: 9px;
 }
 .text-cartes{
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 6px;
 }
-.conteneur-pied{
+.conteneur-pieds{
     flex-direction: column;
+    margin-top: -361px;
+    height: 335px;
+
 }
 .titre-pied{
     display: flex;
     justify-content: center;
+    font
 }
 .mentions{
     display: flex;
