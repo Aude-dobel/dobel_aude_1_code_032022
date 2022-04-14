@@ -364,8 +364,16 @@ a{
     background-color:#353535 ;
     height: 197px;
     padding: 27px 0px 0px 20px;
-    margin-top: 140px;
+    margin-top: 160px;
+    
+}   
+.conteneur-pieds-note{
+    background-color:#353535 ;
+    height: 197px;
+    padding: 27px 0px 0px 20px;
+    margin-top: 160px;
 }
+
 .titre-pied{
     font-family:'Shrikhand' ;
     font-size: 18px;
@@ -420,7 +428,7 @@ header{
 }
 .conteneur-plat{
     background-color: #f6f6f6;
-    height: 1227px;
+    height: 1321px;
     border-radius: 30px 30px 0px 0px;
     margin-top: 221px;
 }
@@ -535,7 +543,7 @@ header{
 }
   .check1{
     display: flex;
-    width: 7%;
+    width: 9%;
 }  
 .prix{
     display: flex;
