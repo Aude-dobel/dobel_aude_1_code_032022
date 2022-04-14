@@ -299,7 +299,7 @@ p{
 }
 .nouveau{
     position: absolute;
-    z-index: 16;
+    z-index: 0;
     top: 72%;
     width: 79px;
     height: 0px;
@@ -308,6 +308,10 @@ p{
 .texte{
     text-align: center;
     margin-top: 4px;
+    color: black;
+    background-color: #99e2d0;
+    width: 79px;
+    height: 25px;
 }
 .nom-carte{
     font-family: 'Roboto';
