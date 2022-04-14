@@ -537,6 +537,7 @@ header{
     display: flex;
     align-items: flex-end;
     padding-top: 74px;
+    margin-right: 7px;
 }  
 .valide{
     display: flex;
@@ -547,6 +548,7 @@ header{
     border-radius: 0px 20px 20px 0px;
     background-color: #99e2d0;
     transition: all 500ms;
+    width: 59px;
 }
 
 .icone{
@@ -730,7 +732,7 @@ header{
     width: 71%;
 }
 .check1{
-    width: 5%;
+    width: 6%;
 }
 .check1:hover{
     width: 76px;
