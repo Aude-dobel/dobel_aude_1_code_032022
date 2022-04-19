@@ -47,7 +47,7 @@ body{
 
     0%{
         opacity: 1;
-        rotate: 360deg;
+        transform: rotate(360deg);
        background-color: white;
         
     }    
@@ -183,7 +183,7 @@ header{
     padding-left: 22px;
     padding-bottom: 33px;
 }
-#filtre{
+.filtre{
     display: flex;
     flex-direction: column;
 }
@@ -567,9 +567,6 @@ header{
     margin-top: 10px;
     font-size: 23px;
     color: white;
-     transform: rotate(1turn);
-    transition: 500ms;
-    padding-right: 0px;
 }
 
 
@@ -577,9 +574,7 @@ header{
     transform: translateX(-4px);
     transition: all 500ms;
     width: 94px;
-
 }
-
 
 /*plats*/
 .plats{
