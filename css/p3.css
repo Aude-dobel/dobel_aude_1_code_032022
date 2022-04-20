@@ -106,7 +106,7 @@ header{
     display: flex;
 }
 .rechercher{
-    width: 375px;
+    width: 100%;
     height: 50px;
     background-color: #eaeaea;
     border-bottom: none ;
@@ -150,6 +150,10 @@ header{
     font-weight: 100;
     margin-bottom: 35px;
   }
+ .block{
+    display: flex;
+    justify-content: center;
+ }
 .bouton{
     display: flex;
     width: 179px;
@@ -157,7 +161,6 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 30px 30px 30px 30px;
-    margin-left: 82px;
     width: 218px;
     height: 50px;
     border: none;
@@ -182,6 +185,14 @@ header{
     padding-top: 52px;
     padding-left: 22px;
     padding-bottom: 33px;
+    display: flex;
+    justify-content: center;
+}
+.choix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .filtre{
     display: flex;
@@ -194,10 +205,8 @@ header{
     align-items: center;
     display: flex;
     justify-content: center;
-    position: absolute;
-    left: 20px;
-    margin-top: 25px;
-    margin-right: 52px;
+    position: relative;
+    right: 20%;
     accent-color: aliceblue;
     background-color: #9356dc;
     color: #ffffff;
@@ -211,7 +220,6 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 20px 20px 20px 20px;
-    margin-left: 33px;
     margin-bottom: 26px;
     font-family: 'Roboto';
     font-size: 15px;
@@ -225,7 +233,6 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 20px 20px 20px 20px;
-    margin-left: 33px;
     margin-bottom: 26px;
     font-family: 'Roboto';
     font-size: 15px;
@@ -239,7 +246,6 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 20px 20px 20px 20px;
-    margin-left: 33px;
     font-family: 'Roboto';
     font-size: 15px;
     margin-bottom: 68px;
@@ -260,8 +266,8 @@ p{
 
 .conteneur{
     background-color: #f6f6f6;
-    padding-left: 20px;
-    height: 1220px;
+    padding-left: 11px;
+    height: 1189px;
 }
 .restaurant{
     padding-top: 58px;
@@ -271,6 +277,11 @@ p{
     margin: 0px;
     padding-bottom: 27px;
 }
+.menus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .carte-hebergement {
 	
 	background-color: white;
@@ -278,6 +289,7 @@ p{
 	height: 251px;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 18px;
+    margin-right: 5px;
 }
 .photo{
 	border-radius: 10px 10px 0px 0px;
@@ -287,22 +299,24 @@ p{
 }
 .nouveaux{
     position: absolute;
-    z-index: 16;
-    top: 56%;
-    color: #008766;
-    background-color: #99e2d0;
-    width: 79px;
-    height: 29px;
+    z-index: 0;
+    top: 55%;
     left: 260px;
+    width: 79px;
+    height: 0px;
 }
 .textes{
     text-align: center;
     margin-top: 4px;
+    color: black;
+    background-color: #99e2d0;
+    width: 79px;
+    height: 25px;
 }
 .nouveau{
     position: absolute;
     z-index: 0;
-    top: 72%;
+    top: 70%;
     width: 79px;
     height: 0px;
     left: 260px;
@@ -625,10 +639,17 @@ header{
 .coeurs{
      padding-left: 106px;
 }
-
-@media all and (min-width:376px){
+@media all and (min-width:691px) and (max-width:991px){
+    .menus{
+        justify-content: space-around;
+    }
+    .conteneur{
+        height: 1198px;
+    }
+}
+@media all and (min-width:992px) {
 body{
-    width: 1900px;
+    height: auto;
 }
 header{
     width:100%;
@@ -649,9 +670,10 @@ header{
 .map{
     padding: 19px 0px 0px 45%;
 }
-.bouton{
-    margin-left: 43%;
-}.fonction{
+.conteneur-menu{
+    height: 1494px;
+}
+.fonction{
     display: flex;
     justify-content: center;
 }
@@ -661,7 +683,8 @@ header{
 }
 .chiffre{
     position: relative;
-    top: 64px;
+    top: 2px;
+    right: 31%;
 }
 .choisir, .composez, .degustez{
     width: 500px;
@@ -675,6 +698,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 93px;
+    height: 530px;
 }
 .nouveaux{
     position: relative;
@@ -712,7 +736,7 @@ header{
     font-size: 28px;
 }
 .image_palette, .image_francaise, .image_note, .image_fond{
-    width:1900px;
+    width:100%;
 }
 .coeur{
     padding-left: 74%;
@@ -727,9 +751,11 @@ header{
 }
 .entree{
     display: flex;
+    height: 17%;
 }
 .entrer{
     margin-right: 93px;
+    margin-bottom: 8%;
 }
 .ligne2{
     margin-right: 4px;
@@ -748,17 +774,21 @@ header{
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
+    height: 17%;
 }
 .plats{
     margin-right: 93px;
+    margin-bottom: 8%;
 }
 .desserts{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px; 
+    margin-top: 30px;
+    height: 17%; 
 }
 .dessert{
     margin-right: 93px;
+    margin-bottom: 5%;
 }
 .boutons{
     display: flex;
@@ -770,7 +800,7 @@ header{
     height: auto;
 }
 .conteneur-plat{
-    height: 800px;
+    height: 1133px;
 }
 .nom-cartes{
     font-size: 16px;
@@ -794,7 +824,8 @@ header{
     display: flex;
     flex-direction: row;
   }
+  .conteneur-pied{
+      height: 289px;
 
+  }
 }
-
-
