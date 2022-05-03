@@ -315,7 +315,7 @@ p{
     margin-top: 4px;
     color: #008766;
     padding-top: 5px;
-    font-size: 'Roboto';
+    font-family: 'Roboto';
 }
 .nouveau{
     position: relative;
@@ -642,7 +642,7 @@ header{
         justify-content: space-around;
     }
     .conteneur{
-        height: 1198px;
+        height: 681px;
     }
 }
 @media all and (min-width:992px) {
@@ -704,14 +704,9 @@ header{
     left: 71%;
 }
 .nouveau{
-    position: relative;
-    left: 72%;
-    top: -66%;
+    top: -72%;
 }
-.texte{
-  
-    padding-top: 5px;
-}
+
 .textes{
     margin-top:-35px;
     padding-top: 5px;
