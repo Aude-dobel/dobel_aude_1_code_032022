@@ -297,38 +297,36 @@ p{
 	width: 335px;
 	height: 175px;
 }
+.carte_photo{
+    width: 336px;
+    height: 175px;
+}
 .nouveaux{
-    position: absolute;
+    position: relative;
     z-index: 0;
-    top: 55%;
-    left: 260px;
+    top: -94%;
+    left: 246px;
     width: 79px;
-    height: 0px;
+    height: 29px;
+    background-color: #99e2d0;
 }
 .textes{
     text-align: center;
     margin-top: 4px;
-    color: black;
-    background-color: #99e2d0;
-    width: 79px;
-    height: 25px;
+    color: #008766;
+    padding-top: 5px;
+    font-size: 'Roboto';
 }
 .nouveau{
-    position: absolute;
+    position: relative;
     z-index: 0;
-    top: 70%;
+    top: -98%;
+    left: 245px;
     width: 79px;
-    height: 0px;
-    left: 260px;
-}
-.texte{
-    text-align: center;
-    margin-top: 4px;
-    color: black;
+    height: 29px;
     background-color: #99e2d0;
-    width: 79px;
-    height: 25px;
 }
+
 .nom-carte{
     font-family: 'Roboto';
     font-size: 16px;
