@@ -792,6 +792,9 @@ header{
     margin-right: 93px;
     margin-bottom: 5%;
 }
+.place{
+    left:-38%
+}
 .boutons{
     display: flex;
     justify-content: center;
