@@ -571,12 +571,11 @@ header{
     padding-left: 18px;
     border-radius: 0px 20px 20px 0px;
     background-color: #99e2d0;
-    transition: all 500ms;
     width: 59px;
 }
  
-.valide:hover .icone{
-    animation: icone-rotate 800ms ;
+.ligne2:hover .icone{
+    animation: icone-rotate 2s ;
 }
 
 @keyframes icone-rotate {
@@ -596,7 +595,7 @@ header{
     color: white;
 }
 
-.check1:hover {
+.ligne2:hover .check1 {
     transform: translateX(-4px);
     transition: all 500ms;
     width: 94px;
