@@ -625,9 +625,9 @@ header{
     border-bottom: solid 3px #99E2D0;
 }
 .place{
-    position:relative;
-    left: -44%;
-    top: 90%;
+    position:absolute;
+    left: 38%;
+    top: 54%;
 }
 .boutons{
     display: flex;
@@ -830,4 +830,9 @@ header{
       height: 289px;
 
   }
+}
+@media all and (min-width:992px) and (max-width:1442px){
+    .check1{
+        width: 10%;
+    }
 }
