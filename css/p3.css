@@ -625,9 +625,9 @@ header{
     border-bottom: solid 3px #99E2D0;
 }
 .place{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    position:relative;
+    left: -44%;
+    top: 90%;
 }
 .boutons{
     display: flex;
@@ -781,12 +781,12 @@ header{
 }
 .plats{
     margin-right: 93px;
-    margin-bottom: 8%;
+    margin-bottom: 6%;
 }
 .desserts{
     display: flex;
     margin-top: 30px;
-    height: 17%; 
+    height: 15%; 
 }
 .dessert{
     margin-right: 93px;
