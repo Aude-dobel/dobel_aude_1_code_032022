@@ -471,8 +471,6 @@ header{
     font-weight: 100;
     margin-left: 20px;
     padding-bottom: 12px;
-    width: 40px;
-    border-bottom: solid 3px #99E2D0;
 }
 /*animation menu*/
 .case1{
@@ -603,6 +601,11 @@ header{
 }
 
 /*plats*/
+span{
+    border-bottom:solid 3px #99E2D0 ;
+    display: block;
+    width: 40px;
+}
 .plats{
     margin-top: 36px;
     font-family: 'Roboto';
@@ -610,8 +613,6 @@ header{
     font-weight: 100;
     margin-left: 20px;
     padding-bottom: 12px;
-    width: 40px;
-    border-bottom: solid 3px #99E2D0;
 }
 /*dessert*/
 .dessert{
@@ -621,13 +622,10 @@ header{
     font-weight: 100;
     margin-left: 20px;
     padding-bottom: 12px;
-    width: 40px;
-    border-bottom: solid 3px #99E2D0;
 }
 .place{
-    position:absolute;
-    left: 38%;
-    top: 54%;
+    display: flex;
+    justify-content: center;
 }
 .boutons{
     display: flex;
@@ -792,9 +790,7 @@ header{
     margin-right: 93px;
     margin-bottom: 5%;
 }
-.place{
-    left:-38%
-}
+
 .boutons{
     display: flex;
     justify-content: center;
