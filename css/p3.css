@@ -607,7 +607,6 @@ span{
     width: 40px;
 }
 .plats{
-    margin-top: 36px;
     font-family: 'Roboto';
     font-size: 19px;
     font-weight: 100;
@@ -616,7 +615,6 @@ span{
 }
 /*dessert*/
 .dessert{
-    margin-top: 36px;
     font-family: 'Roboto';
     font-size: 19px;
     font-weight: 100;
@@ -754,6 +752,7 @@ header{
 .entree{
     display: flex;
     height: 17%;
+    align-items: center;
 }
 .entrer{
     margin-right: 93px;
@@ -776,6 +775,7 @@ header{
     display: flex;
     margin-top: 30px;
     height: 17%;
+    align-items: center;
 }
 .plats{
     margin-right: 93px;
@@ -785,10 +785,12 @@ header{
     display: flex;
     margin-top: 30px;
     height: 15%; 
+    align-items: center;
 }
 .dessert{
     margin-right: 93px;
     margin-bottom: 5%;
+
 }
 
 .boutons{
