@@ -553,7 +553,7 @@ header{
 }
   .check1{
     display: flex;
-    width: 9%;
+    width: auto;
 }  
 .prix{
     display: flex;
@@ -566,7 +566,6 @@ header{
     align-items: center;
     margin-right: -78px;
     padding-right: 18px;
-    padding-left: 18px;
     border-radius: 0px 20px 20px 0px;
     background-color: #99e2d0;
     width: 59px;
@@ -591,6 +590,7 @@ header{
     margin-top: 10px;
     font-size: 23px;
     color: white;
+    padding-left: 39%;
 }
 
 .ligne2:hover .check1 {
@@ -831,6 +831,12 @@ header{
       height: 289px;
 
   }
+}
+@media all and (min-width:437px) and (max-width:991px){
+    .ligne2{
+        width: 80%;
+    }
+  
 }
 @media all and (min-width:992px) and (max-width:1442px){
     .check1{
