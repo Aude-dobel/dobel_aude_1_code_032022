@@ -561,6 +561,11 @@ header{
     padding-top: 74px;
     margin-right: 7px;
 }  
+.prix1{
+    height: 55px;
+    display: flex;
+    align-items: flex-end;
+}
 .valide{
     display: flex;
     align-items: center;
@@ -595,7 +600,7 @@ header{
 
 .ligne2:hover .check1 {
     transform: translateX(-4px);
-    transition: all 500ms;
+    transition: all 800ms;
     width: 94px;
 
 }
@@ -765,12 +770,14 @@ header{
 .text{
     width: 71%;
 }
+
 .check1{
     width: 6%;
 }
 .check1:hover{
     width: 76px;
 }
+
 .plat{
     display: flex;
     margin-top: 30px;
@@ -831,6 +838,14 @@ header{
       height: 289px;
 
   }
+}
+@media all and (min-width:375px)and (max-width:991px){
+    .ligne2:hover .check1 {
+        transform: translateX(-12px);
+        transition: all 800ms;
+        width: 94px;
+    
+    }
 }
 @media all and (min-width:437px) and (max-width:991px){
     .ligne2{
