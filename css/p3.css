@@ -396,21 +396,25 @@ a{
     color: white;
     font-family: 'Roboto';
     font-size: 16px;
+    cursor:pointer;
 }
 .partenaire{
     color: white;
     font-family: 'Roboto';
     font-size: 16px;
+    cursor: pointer;
 }
 .mention{
     color: white;
     font-family: 'Roboto';
     font-size: 16px;
+    cursor: pointer;
 }
 .contacter{
     color: white;
     font-family: 'Roboto';
     font-size: 16px;
+    cursor: pointer;
 }
 .fas{
     padding-right:12px ;
