@@ -528,6 +528,7 @@ header{
     white-space: nowrap;
     width: 335px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .text{
     white-space: nowrap;
